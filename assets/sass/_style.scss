@@ -1,0 +1,105 @@
+.navbar {
+    background-color: $color-nav;
+    @include reset-center;
+
+    &__logo {
+        width: 10%;
+        border-radius: 50%;
+        border: 2px solid white;
+        display: inline-block;
+        margin: 3px 6rem 3px 3px;
+    }
+    &__menu {
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        display: inline-block;
+        color: white;
+        font-size: 1em;
+        padding: 0.5em 1em;
+        border-radius: 4em;
+    }
+    &__item-icon {
+        padding-right: 0.7em;
+    }
+    &__item--active {
+        background-color: $color-main;
+    }
+}
+
+.content {
+    @include reset-center;
+    margin-top: 2.5em;
+
+    &__circle-container {
+        width: 15%;
+        display: inline-block;
+        max-width: 200px;
+        min-width: 150px;
+        vertical-align: top;
+    }
+    &__circle {
+        border-radius: 100%;
+        padding: 1.2em 0.8em;
+        background-color: #EFEFEF;
+        color: $color-main;
+        font-size: 3em;
+        font-weight: bold;
+    }
+    &__info {
+        display: inline-block;
+        width: 55%;
+        max-width: 800px;
+        min-width: 300px;
+        vertical-align: top;
+        text-align: left;
+        padding-left: 2em;
+    }
+    &__name {
+        padding-top: 0;
+        margin-top: 0;
+        color: $color-boton;
+    }
+    &__role {
+        font-weight: bold;
+    }
+    &__hire-me {
+        text-decoration: none;
+        background-color: $color-boton;
+        border-radius: 4em;
+        color: #ddd;
+        padding: 0.8em 3em;
+        display: inline-block;
+    }
+    &__social {
+        margin-top: 4em;
+    }
+    &__social-icon {
+        padding: 15px;
+        width: 40px;
+        text-align: center;
+        display: inline-block;
+
+        &--facebook {
+            background-color: #5173B6;
+        }
+        &--twitter {
+            background-color: #3AA4D2;
+        }
+        &--google-plus {
+            background-color: #C2554A;
+        }
+        &--pinterest {
+            background-color: #B9313A;
+        }
+        &--google-wallet {
+            background-color: #D25535;
+        }
+        &--dribbble {
+            background-color: #CC5C8B;
+        }
+    }
+}

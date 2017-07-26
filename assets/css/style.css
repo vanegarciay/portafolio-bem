@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+.navbar {
+  background-color: #F04949;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+  .navbar__logo {
+    width: 10%;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: inline-block;
+    margin: 3px 6rem 3px 3px; }
+  .navbar__menu {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .navbar__item {
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 4em; }
+  .navbar__item-icon {
+    padding-right: 0.7em; }
+  .navbar__item--active {
+    background-color: #203748; }
+
+.content {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  margin-top: 2.5em; }
+  .content__circle-container {
+    width: 15%;
+    display: inline-block;
+    max-width: 200px;
+    min-width: 150px;
+    vertical-align: top; }
+  .content__circle {
+    border-radius: 100%;
+    padding: 1.2em 0.8em;
+    background-color: #EFEFEF;
+    color: #203748;
+    font-size: 3em;
+    font-weight: bold; }
+  .content__info {
+    display: inline-block;
+    width: 55%;
+    max-width: 800px;
+    min-width: 300px;
+    vertical-align: top;
+    text-align: left;
+    padding-left: 2em; }
+  .content__name {
+    padding-top: 0;
+    margin-top: 0;
+    color: #39D084; }
+  .content__role {
+    font-weight: bold; }
+  .content__hire-me {
+    text-decoration: none;
+    background-color: #39D084;
+    border-radius: 4em;
+    color: #ddd;
+    padding: 0.8em 3em;
+    display: inline-block; }
+  .content__social {
+    margin-top: 4em; }
+  .content__social-icon {
+    padding: 15px;
+    width: 40px;
+    text-align: center;
+    display: inline-block; }
+    .content__social-icon--facebook {
+      background-color: #5173B6; }
+    .content__social-icon--twitter {
+      background-color: #3AA4D2; }
+    .content__social-icon--google-plus {
+      background-color: #C2554A; }
+    .content__social-icon--pinterest {
+      background-color: #B9313A; }
+    .content__social-icon--google-wallet {
+      background-color: #D25535; }
+    .content__social-icon--dribbble {
+      background-color: #CC5C8B; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #203748;
+  color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */
